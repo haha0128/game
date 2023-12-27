@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俄羅斯方塊</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .small-title {
+            background-color: #696969;
+            border: 5px solid #ccc;
+            padding: 10px;
+            width: 500px;
+            border-left: 30px solid #ccc;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .image img {
+            width: 20%;
+            /* 每個圖片佔據容器的 20% 寬度 */
+            margin: 5px;
+            /* 調整圖片之間的間距 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        /* 基本表格樣式 */
+        .tournament-table {
+            border-collapse: collapse;
+            width: 50%;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            /* 設定統一的背景色 */
+        }
+
+        .tournament-table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        /* 條紋狀背景 */
+        .tournament-table tr:nth-child(even) {
+            background-color: #c2c2c2;
+        }
+
+        /* 滑鼠懸停變化 */
+        .tournament-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: #ffffff; text-align: center;">俄羅斯方塊</h1>
+    <hr style="color: #ffffff; width: 1000px;">
+    <div id="menu">
+        <p class="small-title">簡介</p>
+        <p>俄羅斯方塊，是1980年末期至1990年代初期風靡全世界的電腦遊戲，<br>是落下型益智遊戲的始祖，電子遊戲領域的代表作之一</p>
+        <p class="small-title">遊戲機制</p>
+        <p>《俄羅斯方塊》是由七種四格骨牌構成，全部都由四個方塊組成。開始時，<br>一個隨機的方塊會從區域上方開始緩慢繼續落下。<br>落下期間，玩家可以以90度為單位旋轉方塊，<br>以格子為單位左右移動方塊，或讓方塊加速落下。<br>當方塊下落到區域最下方或著落到其他方塊上無法再向下移動時，<br>就會固定在該處，然後一個新的隨機的方塊會出現在區域上方開始落下。<br>當區域中某一橫行的格子全部由方塊填滿時，則該列會被消除並成為玩家的得分。</p>
+        <p class="small-title">競賽</p>
+        <p><b>速度比賽</b></p>
+        <p>這是俄羅斯方塊中最常見的競賽形式之一。玩家在遊戲開始時獲得相同的方塊序列，<br>他們必須迅速地將這些方塊放置在底部以建立完整的行，同時盡可能地消除行。<br>勝利通常由最先完成特定目標或最後一位幸存的玩家決定。</p>
+        <p><b>高分挑戰</b></p>
+        <p>這種競賽形式侧重於獲得最高的分數。玩家會在盡可能長的時間內玩遊戲，<br>努力堆疊和消除方塊以獲得最高的得分。</p>
+        <div class="img">
+            <img src="../img/game/game4/game4.jpg" width="700px"><br>
+        </div>
+        <br>
+    </div>
+    <li id="home"><a href="../game.html">回上一頁</a></li>
+</body>
+
+</html>

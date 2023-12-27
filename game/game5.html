@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跑跑卡丁車</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .small-title {
+            background-color: #696969;
+            border: 5px solid #ccc;
+            padding: 10px;
+            width: 500px;
+            border-left: 30px solid #ccc;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .image img {
+            width: 20%;
+            /* 每個圖片佔據容器的 20% 寬度 */
+            margin: 5px;
+            /* 調整圖片之間的間距 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        /* 基本表格樣式 */
+        .tournament-table {
+            border-collapse: collapse;
+            width: 50%;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            /* 設定統一的背景色 */
+        }
+
+        .tournament-table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        /* 條紋狀背景 */
+        .tournament-table tr:nth-child(even) {
+            background-color: #c2c2c2;
+        }
+
+        /* 滑鼠懸停變化 */
+        .tournament-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: #ffffff; text-align: center;">跑跑卡丁車</h1>
+    <hr style="color: #ffffff; width: 1000px;">
+    <div id="menu">
+        <p class="small-title">簡介</p>
+        <p>跑跑卡丁車是韓國Nexon公司出品的一款休閒類賽車競速遊戲，亦是《爆爆王》的衍生遊戲。</p>
+        <p class="small-title">道具模式</p>
+        <p>道具模式較為休閒向，可作為道具模式的地圖大部分較為簡單。<br>賽道上會出現一排排旋轉著的道具盒，<br>駕駛卡丁車經過道具盒即可吃掉道具盒，獲得道具。<br>道具帶是可再生的。玩家依然爭奪誰更快開到終點。</p>
+        <p class="small-title">競速模式</p>
+        <p>競速模式是跑跑卡丁車的靈魂玩法，需要通過漂移來集氣，<br>當螢幕下方的紅色集氣條滿時將獲得一個紅色加速器，<br>以此爭奪冠軍。</p>
+        <div class="img">
+            <img src="../img/game/game5/game5.jpg" width="700px"><br>
+        </div>
+        <br>
+    </div>
+    <li id="home"><a href="../game.html">回上一頁</a></li>
+</body>
+
+</html>

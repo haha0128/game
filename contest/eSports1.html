@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄聯盟世界大賽</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .small-title {
+            background-color: #696969;
+            border: 5px solid #ccc;
+            padding: 10px;
+            width: 500px;
+            border-left: 30px solid #ccc;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .image img {
+            width: 20%;
+            /* 每個圖片佔據容器的 20% 寬度 */
+            margin: 5px;
+            /* 調整圖片之間的間距 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        /* 基本表格樣式 */
+        .tournament-table {
+            border-collapse: collapse;
+            width: 50%;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            /* 設定統一的背景色 */
+        }
+
+        .tournament-table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        /* 條紋狀背景 */
+        .tournament-table tr:nth-child(even) {
+            background-color: #c2c2c2;
+        }
+
+        /* 滑鼠懸停變化 */
+        .tournament-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: #ffffff; text-align: center;">英雄聯盟世界大賽</h1>
+    <hr style="color: #ffffff; width: 1000px;">
+    <div id="menu">
+        <p class="small-title">簡介</p>
+        <p>英雄聯盟世界大賽(英語：League of Legends World Championship Series，<br>也被稱為英雄聯盟全球總决賽、簡稱為Worlds)是由Riot
+            Games公司舉行的英雄聯盟電子競技比賽。</p>
+        <p class="small-title">賽制</p>
+        <p>英雄聯盟世界大賽分為兩部分：一個由12支隊伍參加的入圍賽和一個由16支隊伍參加的小組賽，<br>其中小組賽的4個名額將由入圍賽決出。為決出這4個名額，12支隊伍分成四組展開雙循環BO1(單局決勝)，<br>而每組的第一名將隨機面對其他小組的第二名，通過BO5(五局三勝)一個名額。<br>類似的，在小組賽階段，16支隊伍分成4組展開雙循環BO1，而每組的第一名將隨機面對其他小組的第二名，<br>開啟單敗淘汰制的淘汰賽階段，最終決出最終的勝利者。
+        </p>
+        <p class="small-title">歷屆決賽</p>
+        <br>
+        <ul>
+            <table class="tournament-table">
+                <tr>
+                    <td>賽季</td>
+                    <td>舉辦地</td>
+                    <td>冠軍</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>瑞典延雪平</td>
+                    <td>FNC</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>美國洛杉磯</td>
+                    <td>TPA</td>
+                </tr>
+                <tr>
+                    <td>2013</td>
+                    <td>美國洛杉磯</td>
+                    <td>SKT</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>南韓首爾</td>
+                    <td>SSW</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>德國柏林</td>
+                    <td>SKT</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>美國洛杉磯</td>
+                    <td>SKT</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>中國大陸北京</td>
+                    <td>SSG</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>南韓仁川</td>
+                    <td>IG</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>法國巴黎</td>
+                    <td>FPX</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>中國大陸上海</td>
+                    <td>DWG</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>冰島雷克雅未克</td>
+                    <td>EDG</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>美國舊金山</td>
+                    <td>DRX </td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>南韓釜山</td>
+                    <td>T1</td>
+                </tr>
+            </table>
+        </ul>
+        <br>
+    </div>
+    <li id="home"><a href="../contest.html">回上一頁</a></li>
+</body>
+
+</html>

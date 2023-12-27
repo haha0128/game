@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄聯盟</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .small-title {
+            background-color: #696969;
+            border: 5px solid #ccc;
+            padding: 10px;
+            width: 500px;
+            border-left: 30px solid #ccc;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .image img {
+            width: 20%;
+            /* 每個圖片佔據容器的 20% 寬度 */
+            margin: 5px;
+            /* 調整圖片之間的間距 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        /* 基本表格樣式 */
+        .tournament-table {
+            border-collapse: collapse;
+            width: 50%;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            /* 設定統一的背景色 */
+        }
+
+        .tournament-table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        /* 條紋狀背景 */
+        .tournament-table tr:nth-child(even) {
+            background-color: #c2c2c2;
+        }
+
+        /* 滑鼠懸停變化 */
+        .tournament-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: #ffffff; text-align: center;">英雄聯盟</h1>
+    <hr style="color: #ffffff; width: 1000px;">
+    <div id="menu">
+        <p class="small-title">簡介</p>
+        <p>英雄聯盟(英語：League of Legends，簡稱LoL)是由拳頭遊戲開發及發行的一款<br>5v5多人線上戰鬥技術型（MOBA）遊戲，遊戲為免費模式進行並提供付費道具服務。</p>
+        <p class="small-title">遊戲機制</p>
+        <p>該遊戲目前的常規遊戲模式有兩種，分別是召喚峽谷與咆嘯深淵。<br>玩家會在遊戲中彼此合作、與對方的團隊競爭，遊戲的目標<br>通常是破壞對方團隊的主要基地「主堡」，每一場遊戲的時間大約為25至45分鐘。</p>
+        <p class="small-title">遊戲地圖</p>
+        <p><b>召喚峽谷</b></p>
+        <p>召喚峽谷是《英雄聯盟》中最受歡迎的地圖。在這個地圖的模式裡，兩個團隊各自有五名玩家，<br>以摧毀對方隊伍的主要基地「主堡」為目標而相互對戰，除了進攻對方、同時也要防守自己的主堡不被破壞。</p>
+        <div class="img">
+            <img src="../img/game/game1/map1.png" width="400px"><br>
+        </div>
+        <br>
+        <p><b>咆嘯深淵</b></p>
+        <p>咆嘯深淵是用於隨機單中（ARAM）的地圖，ARAM指的是「All Random All Mid」，<br>指全部隨機全部中路（隨機單中）。這個地圖是五對五。咆嘯深淵與其它地圖的差別在於，<br>該地圖只有一條路，沒有中立野怪、也沒有野區。<br>十個英雄都會聚在相對狹窄的唯一一條路上對戰。</p>
+        <div class="img">
+            <img src="../img/game/game1/map2.jpg" width="600px"><br>
+        </div>
+        <br>
+    </div>
+    <li id="home"><a href="../game.html">回上一頁</a></li>
+</body>
+
+</html>
